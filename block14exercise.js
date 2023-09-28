@@ -35,11 +35,9 @@ console.log(inputArr, "has", vowelcount, "vowels and", constcount, "constanents"
 //ReverseArray
 //use num reverse to reverse the numbers of the array 
 
-var numms=[1,2,3];
-
-numms.reverse();
-
-console.log(numms);
+let reversedArray = [1,2,3,4,5]
+    for (let i= array.legth -1; i>0; i--){reversedArray.push(array[i])}
+console.log(reversedArray);
 
 //fizzbuzz//
 // create an array with range of less than 101 to get the full range of 100, 
